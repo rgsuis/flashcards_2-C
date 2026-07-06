@@ -61,6 +61,9 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   backface-visibility: hidden;
 }
+.cartao:hover .cartao__conteudo{
+  transform: rotateY(180deg);
+}
 footer {
   background-color: black;
   color: white;
